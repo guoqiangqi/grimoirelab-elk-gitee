@@ -65,7 +65,7 @@ setup(name="grimoire-elk-gitee",
       test_suite='tests',
       install_requires=[
           'grimoire-elk>=0.72.0',
-          'perceval',
+          'perceval==0.21.0',
           'perceval-gitee>=0.1.0',
           'cereslib>=0.1.0',
           'grimoirelab-toolkit>=0.1.4',
